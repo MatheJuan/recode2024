@@ -1,0 +1,81 @@
+body {
+    margin: 0;  
+    padding: 0 40px;  
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #f8f8f8;
+    height: 60px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve para profundidade */
+}
+
+ 
+ul {
+    list-style-type: none;
+    margin: 300px;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+}
+ 
+li {
+    margin: 0 15px; /* Reduzido para mais espaçamento entre itens */
+}
+
+/* Estilos para os links de navegação */
+li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s; /* Transição suave para a cor */
+}
+li a:hover {
+    color: #007BFF; /* Muda a cor ao passar o mouse */
+}
+
+/* Estilo do botão */
+.botaoClass {
+    background-color: #4CAF50;  
+    color: white;               
+    padding: 10px 20px;    
+    border: none;              
+    border-radius: 5px;
+    text-decoration: none;       
+    margin-bottom: 10px;
+    font-size: 16px;          
+    cursor: pointer;            /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s, transform 0.2s; /* Transição suave ao passar o mouse */
+}
+
+.botaoClass:hover {
+    background-color: #45a049; /* Cor do botão quando passa mouse */
+    transform: scale(1.05); /* Leve aumento de tamanho ao passar o mouse */
+}
+
+.imagem-e-texto {
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    max-width: 1000px; /* Limita a largura do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+.imagem {
+    width: 400; 
+    height: auto; 
+    padding-top: 6px;
+}
+
+.textoPrincipal{
+   line-height: 1.5; 
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center; 
+    margin: 20px 0px; 
+  
+}

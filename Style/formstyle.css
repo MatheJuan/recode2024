@@ -1,0 +1,36 @@
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(65, 68, 70);
+   
+}   
+.box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(31, 31, 28);
+        padding: 15px;
+        border-radius: 15px;
+        width: 20%;
+    }
+    fieldset{
+        border: 3px solid rgb(3, 3, 3);
+    }
+    legend{
+        border: 1px solid ;
+        padding: 10px;
+        text-align: center;
+        background-color: rgb(80, 139, 226);
+        border-radius: 8px;
+    }
+    .inputUser{
+        background: none;
+        border: none;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        outline: none;
+        color: rgb(12, 10, 10);
+        font-size: 15px;
+        width: 100%;
+        letter-spacing: 1px;
+    }
+ 
